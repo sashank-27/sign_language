@@ -5,7 +5,7 @@ from ultralytics import YOLO  # Import YOLOv8 from ultralytics
 import time
 
 # Load your custom YOLOv8 model (replace 'best.pt' with the path to your custom model)
-model = YOLO('/Users/bulusu/Desktop/yolov8/best.pt')  # Load custom YOLOv8 model
+model = YOLO('best.pt')  # Load custom YOLOv8 model
 
 # Setup capture (0 is the default webcam)
 cap = cv2.VideoCapture(0)
