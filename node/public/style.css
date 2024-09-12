@@ -10,10 +10,22 @@ h1 {
   color: #333;
 }
 
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#left-gestures, #right-gestures {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #video-stream {
   border: 5px solid #333;
-  width: 800px;
-  height: 600px;
+  width: 600px;
+  height: 450px;
 }
 
 #controls {
@@ -26,3 +38,18 @@ button {
   margin: 5px;
   cursor: pointer;
 }
+
+#left-gestures img {
+  width: 250px;
+  height: auto;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+#right-gestures img{
+  width: 250px;
+  height: auto;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+

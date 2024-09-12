@@ -8,11 +8,34 @@
   </head>
   <body>
     <h1>YOLOv8 Object Detection Live Stream</h1>
-    <img
-      id="video-stream"
-      src="http://localhost:5000/video_feed"
-      alt="Video Stream"
-    />
+    
+    <div id="main-container">
+      <!-- Left gesture images -->
+      <div id="left-gestures">
+        <img src="https://res.cloudinary.com/deecdwlz4/image/upload/v1726137199/Untitled_design_4_aimbet.png" alt="All done" />
+        <img src="https://res.cloudinary.com/deecdwlz4/image/upload/v1726137195/Untitled_design_5_lsxuwp.png" alt="Thank you" />
+        <img src="https://res.cloudinary.com/deecdwlz4/image/upload/v1726137195/Untitled_design_1_kr68tt.png" alt="Stop" />
+        <img src="https://res.cloudinary.com/deecdwlz4/image/upload/v1726140824/HELLO_1_n5gxlr.jpg" alt="Stop" />
+      </div>
+
+      <!-- Video stream placeholder -->
+      <div id="stream">
+        <img
+          id="video-stream"
+          src="http://localhost:5000/video_feed"
+          alt="Video Stream"
+        />
+      </div>
+
+      <!-- Right gesture images -->
+      <div id="right-gestures">
+        <img src="https://res.cloudinary.com/deecdwlz4/image/upload/v1726137195/Untitled_design_zi8iw9.png" alt="Play" />
+        <img src="https://res.cloudinary.com/deecdwlz4/image/upload/v1726137194/Untitled_design_2_hxey6l.png" alt="More" />
+        <img src="https://res.cloudinary.com/deecdwlz4/image/upload/v1726137194/Untitled_design_3_ouruo3.png" alt="Yes or No" />
+        <img src="https://res.cloudinary.com/deecdwlz4/image/upload/v1726140820/HELLO_2_ml9p1e.jpg" alt="Yes or No" />
+
+      </div>
+    </div>
 
     <div id="controls">
       <button id="start-btn">Start Stream</button>
